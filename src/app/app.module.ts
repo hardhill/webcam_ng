@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { SwitcherComponent } from './components/switcher/switcher.component';
 import { WebcamPanelComponent } from './components/webcam-panel/webcam-panel.component';
+import { SnapButtonComponent } from './components/snap-button/snap-button.component';
 
 
 @NgModule({
@@ -13,6 +14,7 @@ import { WebcamPanelComponent } from './components/webcam-panel/webcam-panel.com
     NavbarComponent,
     SwitcherComponent,
     WebcamPanelComponent,
+    SnapButtonComponent,
 
   ],
   imports: [
